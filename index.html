@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>infonews</title>
+    <style>
+        h1 { 
+            font-size: 50px;
+            text-align: center;
+            font-family: "Comic Sans MS";
+        }
+    </style>
+    <script>
+        var request = new XMLHttpRequest(); 
+        request.open("GET", 'http://www.url.com');
+        request.onreadystatechange = function() { 
+        if (request.readyState === 4 && request.status === 200) {
+
+        //response handling code
+
+        }
+        };
+        request.send(null); // Send the request now
+
+      //  https://www.lemonde.fr/rss/en_continu.xml
+    </script>
+</head>
+<body>
+  <h1>infonews</h1> 
+</body>
+</html>
